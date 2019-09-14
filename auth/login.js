@@ -58,8 +58,8 @@ passport.use(
 passport.use(
   new FacebookStrategy(
     {
-      clientID: "617600772023070",
-      clientSecret: "20d494e69d42e75e57ff9db6170e9050",
+      clientID: "",
+      clientSecret: "',
       callbackURL: "http://localhost:8000/auth/facebook/callback",
       profileFields: ["id", "displayName", "photos", "email"]
     },
