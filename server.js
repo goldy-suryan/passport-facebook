@@ -103,6 +103,3 @@ app.listen(port, err => {
   }
   console.log(`http://localhost:${port}`);
 });
-
-// 617600772023070
-// 20d494e69d42e75e57ff9db6170e9050
